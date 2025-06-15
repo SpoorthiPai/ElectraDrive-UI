@@ -1,5 +1,5 @@
 import './HomeSectionVideo.css';
-import ElectraDriveVid from '../../assets/ElectraDrive-vid.mp4';
+import ElectraDriveVid from '../../assets/electradrive-vid.mp4';
 
 export default function HomeSectionVideo() {
   return (
