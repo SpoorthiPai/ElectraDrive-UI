@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# ElectraDrive-UI
+Tesla Clone Frontend project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ⚡ ElectraDrive – Tesla Clone (Frontend Application)
 
-## Available Scripts
+ElectraDrive is a Tesla-inspired full-stack web application that replicates the sleek and modern UI/UX of [tesla.com](https://www.tesla.com). Built using **React** for the frontend and **Java Spring Boot** for the backend, it demonstrates a modular approach to state management, routing, and backend API integration.
 
-In the project directory, you can run:
+## 🚀 Objective
 
-### `npm start`
+To design and build a responsive Tesla-style landing page that enables users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Seamlessly browse different car models.
+- Interact with UI elements like modals, hero sections, and headers.
+- Submit bookings and view data powered by a backend.
+- Experience a smooth deployment-ready modern full-stack web app.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Project Goals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Replicate Tesla's minimalist yet engaging design.
+- Enable smooth routing across pages (e.g., `/models`, `/modelx`, `/modely`).
+- Integrate backend features for user interactions like adding vehical .
+- Deploy both frontend and backend using popular platforms (Netlify, Render).
+- Implement enhancements like OAuth 2.0 and JWT-based authentication.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧰 Tools & Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend
+- React
+- HTML, CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Backend
+- MongoDB
 
 ### Deployment
+- **Frontend**: Netlify
+- **Backend**
+- **Build Tools**: npm, Maven, IntelliJ Idea, Visual Studio Code
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🧱 Architecture
+(https://spoorthipai23.atlassian.net/wiki/spaces/~7120200874916a55964435888d7887da9d3f64/pages/98308/Tesla+Clone+ElectraDrive+-+FullStack+Application)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application follows a standard client-server architecture with RESTful API integration:
+
+- **Frontend** communicates with backend via `/api` endpoints.
+- **Backend** is structured into layers:
+  - `Controller`: Handles API routes.
+  - `Service`: Business logic.
+  - `Repository`: Database access.
+  - `Entity`: Data models.
+
+---
+
+## 🔧 Implementation Plan
+
+### Phase 1: Project Setup
+- Frontend initialized using `create-react-app` in **VS Code**.
+- Backend initialized in **IntelliJ IDEA** using Spring Initializr.
+- Basic folder structure and dependencies set up.
+
+### Phase 2: Frontend Development
+- Built reusable UI components (Header, Hero, Footer, Buttons).
+- Implemented Tesla-style scroll landing pages.
+- Enabled routing for:
+  - `/models`
+  - `/modelx`
+  - `/modely`
+
+### Phase 3: Backend Development
+- Defined data models and created database schema.
+- Built endpoints:
+  - `POST /api/vehicle/add` – Save booking details.
+  - `GET /api/vehicle` – Fetch car model data.
+- Integrated with MySQL/PostgreSQL/MongoDB.
+
+### Phase 4: Deployment
+- Frontend hosted on **Netlify**:  
+  [https://electradrive.netlify.app](https://electradrive.netlify.app)
+
+---
+
+## Future Enhancements
+
+- Add **OAuth2.0 / JWT-based** authentication system.
+- Integrate Backend and Frontend for loading dynamic data.
+
+Live Demo
+Frontend: https://electradrive.netlify.app
+
+## Resources Used
+- ChatGPT
+- Google AI
+- Youtube videos
+
