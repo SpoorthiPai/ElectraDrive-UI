@@ -1,11 +1,13 @@
 # ElectraDrive-UI
 Tesla Clone Frontend project
 
-# ⚡ ElectraDrive – Tesla Clone (Frontend Application)
+# ElectraDrive – Tesla Clone (Frontend Application)
 
 ElectraDrive is a Tesla-inspired full-stack web application that replicates the sleek and modern UI/UX of [tesla.com](https://www.tesla.com). Built using **React** for the frontend and **Java Spring Boot** for the backend, it demonstrates a modular approach to state management, routing, and backend API integration.
 
-## 🚀 Objective
+## LIVE SITE(using netlify) - https://electradrv.netlify.app
+
+## Objective
 
 To design and build a responsive Tesla-style landing page that enables users to:
 
@@ -16,7 +18,7 @@ To design and build a responsive Tesla-style landing page that enables users to:
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 - Replicate Tesla's minimalist yet engaging design.
 - Enable smooth routing across pages (e.g., `/models`, `/modelx`, `/modely`).
@@ -26,7 +28,7 @@ To design and build a responsive Tesla-style landing page that enables users to:
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 
 ### Frontend
 - React
@@ -42,7 +44,7 @@ To design and build a responsive Tesla-style landing page that enables users to:
 
 ---
 
-## 🧱 Architecture
+## Architecture
 (https://spoorthipai23.atlassian.net/wiki/spaces/~7120200874916a55964435888d7887da9d3f64/pages/98308/Tesla+Clone+ElectraDrive+-+FullStack+Application)
 
 The application follows a standard client-server architecture with RESTful API integration:
@@ -56,7 +58,7 @@ The application follows a standard client-server architecture with RESTful API i
 
 ---
 
-## 🔧 Implementation Plan
+## Implementation Plan
 
 ### Phase 1: Project Setup
 - Frontend initialized using `create-react-app` in **VS Code**.
