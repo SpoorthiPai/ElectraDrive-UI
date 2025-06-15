@@ -4,7 +4,7 @@ import './Products.css';
 import cybertruckImage from '../../assets/cybertruck.jpg';
 import modelSImage from '../../assets/model-s.jpg';
 import modelXImage from '../../assets/model-x.jpg';
-import teslaCharger from '../../assets/tesla-charger.jpg';
+import ElectraDriveCharger from '../../assets/ElectraDrive-charger.jpg';
 
 const products = [
   {
@@ -30,7 +30,7 @@ const products = [
   },
   {
     id: 4,
-    image: teslaCharger,
+    image: ElectraDriveCharger,
     title: 'Charger',
     description: 'Description of Product 4',
     price: 49.99,

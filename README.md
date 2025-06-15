@@ -1,15 +1,15 @@
 # ElectraDrive-UI
-Tesla Clone Frontend project
+ElectraDrive Clone Frontend project
 
-# ElectraDrive – Tesla Clone (Frontend Application)
+# ElectraDrive – ElectraDrive Clone (Frontend Application)
 
-ElectraDrive is a Tesla-inspired full-stack web application that replicates the sleek and modern UI/UX of [tesla.com](https://www.tesla.com). Built using **React** for the frontend and **Java Spring Boot** for the backend, it demonstrates a modular approach to state management, routing, and backend API integration.
+ElectraDrive is a ElectraDrive-inspired full-stack web application that replicates the sleek and modern UI/UX of [ElectraDrive.com](https://www.ElectraDrive.com). Built using **React** for the frontend and **Java Spring Boot** for the backend, it demonstrates a modular approach to state management, routing, and backend API integration.
 
 ## LIVE SITE(using netlify) - https://electradrv.netlify.app
 
 ## Objective
 
-To design and build a responsive Tesla-style landing page that enables users to:
+To design and build a responsive ElectraDrive-style landing page that enables users to:
 
 - Seamlessly browse different car models.
 - Interact with UI elements like modals, hero sections, and headers.
@@ -20,7 +20,7 @@ To design and build a responsive Tesla-style landing page that enables users to:
 
 ## Project Goals
 
-- Replicate Tesla's minimalist yet engaging design.
+- Replicate ElectraDrive's minimalist yet engaging design.
 - Enable smooth routing across pages (e.g., `/models`, `/modelx`, `/modely`).
 - Integrate backend features for user interactions like adding vehical .
 - Deploy both frontend and backend using popular platforms (Netlify, Render).
@@ -45,7 +45,7 @@ To design and build a responsive Tesla-style landing page that enables users to:
 ---
 
 ## Architecture
-(https://spoorthipai23.atlassian.net/wiki/spaces/~7120200874916a55964435888d7887da9d3f64/pages/98308/Tesla+Clone+ElectraDrive+-+FullStack+Application)
+(https://spoorthipai23.atlassian.net/wiki/spaces/~7120200874916a55964435888d7887da9d3f64/pages/98308/ElectraDrive+Clone+ElectraDrive+-+FullStack+Application)
 
 The application follows a standard client-server architecture with RESTful API integration:
 
@@ -67,7 +67,7 @@ The application follows a standard client-server architecture with RESTful API i
 
 ### Phase 2: Frontend Development
 - Built reusable UI components (Header, Hero, Footer, Buttons).
-- Implemented Tesla-style scroll landing pages.
+- Implemented ElectraDrive-style scroll landing pages.
 - Enabled routing for:
   - `/models`
   - `/modelx`

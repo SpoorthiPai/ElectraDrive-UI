@@ -5,7 +5,7 @@ import { useRecoilValue } from 'recoil';
 import { cartState } from '../../global-state/cartItems';
 
 export const navElements = [
-  { label: 'TESLA', route: '', style: { marginRight: 'auto' } },
+  { label: 'ElectraDrive', route: '', style: { marginRight: 'auto' } },
   { label: 'Model S', route: 'model_s' },
   { label: 'Model X', route: 'model_x' },
   { label: 'Cybertruck', route: 'cybertruck' },
