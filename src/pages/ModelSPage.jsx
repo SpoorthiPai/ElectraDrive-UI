@@ -1,7 +1,7 @@
 import ImageBackgroundSection from '../components/ImageBackgroundSection/ImageBackgroundSection';
 import modelSImage from '../assets/model-s.jpg';
 import ImageBackgroundNoText from '../components/ImageBackgroundNoText/ImageBackgroundNoText';
-import ElectraDriveChargerImage from '../assets/ElectraDrive-charger.jpg';
+import ElectraDriveChargerImage from '../assets/electradrive-charger.jpg';
 import ImageGrid from '../components/ImageGrid/ImageGrid';
 
 const featureItems = [

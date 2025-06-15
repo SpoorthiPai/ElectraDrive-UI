@@ -4,7 +4,7 @@ import './Products.css';
 import cybertruckImage from '../../assets/cybertruck.jpg';
 import modelSImage from '../../assets/model-s.jpg';
 import modelXImage from '../../assets/model-x.jpg';
-import ElectraDriveCharger from '../../assets/ElectraDrive-charger.jpg';
+import ElectraDriveCharger from '../../assets/electradrive-charger.jpg';
 
 const products = [
   {
